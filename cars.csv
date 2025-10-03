@@ -1,0 +1,5 @@
+brand,model,year,category,rarity,images,source
+Ferrari,F40,1992,Hypercar,Legendary,"/cars/f40.jpg","vanilla"
+Ford,GT40,1966,Race,Rare,"/cars/gt40.jpg","vanilla"
+Porsche,911 Carrera RS,1973,Classic,Legendary,"/cars/911_rs.jpg","vanilla"
+Lamborghini,Countach,1985,Supercar,Rare,"/cars/countach.jpg","season1"

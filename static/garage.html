@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mon garage — KudosCrew</title>
+  <style>
+    body{font-family:Inter,Arial,Helvetica,sans-serif;margin:0;padding:24px;background:#f5f7fb}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{background:#fff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.06);overflow:hidden}
+    .card img{width:100%;height:160px;object-fit:cover}
+    .card .meta{padding:12px}
+    .tag{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px;background:#eef2ff}
+  </style>
+</head>
+<body>
+  <h1>Mon garage</h1>
+  <div class="grid" id="garage">
+    <div class="card">
+      <img src="/cars/f40.jpg" alt="F40">
+      <div class="meta">
+        <strong>Ferrari F40</strong>
+        <div><span class="tag">Hypercar</span> <small>Legendary</small></div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/cars/gt40.jpg" alt="GT40">
+      <div class="meta">
+        <strong>Ford GT40</strong>
+        <div><span class="tag">Race</span> <small>Rare</small></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
