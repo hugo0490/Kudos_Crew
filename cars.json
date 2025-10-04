@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "brand": "Abarth",
+    "model": "595 Esseesse",
+    "year": 1968,
+    "division": "Voitures Culte",
+    "rarity": "Rare",
+    "price": 35000,
+    "transmission": "RWD",
+    "source": "Autoshow & Wheelspin",
+    "stats": {
+      "speed": 2.6,
+      "handling": 3.7,
+      "acceleration": 1.7,
+      "launch": 2.6,
+      "braking": 2.0,
+      "offroad": 5.1
+    }
+  }
+]
