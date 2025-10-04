@@ -1,35 +1,25 @@
-/* styles/globals.css */
-
-/* Réinitialisation basique et styles globaux */
-html, body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background: #f5f7fb;
+/* globals for KudosCrew prototype */
+:root{
+  --bg:#1f1f1f; --panel:#2b2b2b; --muted:#9aa0a6; --accent:#8ad3ff; --card:#0f1720;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Styles pour les boutons de base */
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: #6366f1;
-  color: white;
-  border-radius: 0.5rem;
-  font-weight: 500;
-  text-align: center;
-  transition: background-color 0.2s ease;
-}
-
-.btn:hover {
-  background-color: #4f46e5;
-}
+html,body,#__next{height:100%;}
+body{margin:0;background:var(--bg);color:#e6eef6;font-family:Inter,Arial,Helvetica,sans-serif;font-size:14px}
+.container{display:flex;gap:20px;padding:18px}
+.sidebar{width:300px;background:#101010;padding:14px;border-radius:6px;height:calc(100vh - 36px);overflow:auto;border:1px solid #161616}
+.logo{display:flex;align-items:center;gap:8px;margin-bottom:12px}
+.logo .k{width:34px;height:34px;background:#fff;color:#000;display:flex;align-items:center;justify-content:center;font-weight:700;border-radius:4px}
+.controls h3{margin:10px 0 6px;color:var(--muted);font-size:12px}
+.select, .search{width:100%;padding:8px;border-radius:6px;border:1px solid #222;background:#0b0b0b;color:#e6eef6;margin-bottom:6px}
+.main{flex:1}
+.header{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.header h1{font-size:28px;margin:0;color:#f5f7fb}
+.instructions{background:#111;padding:12px;border-radius:6px;border:1px solid #242424;color:var(--muted);margin-bottom:12px}
+.cards{display:flex;flex-direction:column;gap:12px}
+.card{background:linear-gradient(180deg,#0b0b0b,#0a0a0a);border:1px solid #253033;padding:12px;border-radius:8px;display:flex;gap:12px;align-items:center}
+.card .thumb{width:110px;height:70px;background:#050505;border-radius:6px;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:#888;font-size:12px}
+.card .info{flex:1}
+.card .title{font-weight:700;font-size:16px;color:#bfefff}
+.card .meta{color:var(--muted);font-size:13px;margin-top:6px}
+.card .price{font-weight:700;color:#d1f7d6}
+.pagination{display:flex;gap:8px;margin-top:12px;align-items:center}
+.page-btn{padding:6px 10px;background:#0b0b0b;border-radius:6px;border:1px solid #222;color:var(--muted);cursor:pointer}

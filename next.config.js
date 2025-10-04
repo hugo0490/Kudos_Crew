@@ -1,7 +1,2 @@
-const nextConfig = {
-  reactStrictMode: true,
-  images: {
-    domains: ['images.ubisoft.com', 'cdn.example.com']
-  }
-}
+const nextConfig = { reactStrictMode: true }
 module.exports = nextConfig

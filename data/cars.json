@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "brand": "Abarth",
+    "model": "595 Esseesse",
+    "year": 1968,
+    "division": "Voitures Culte",
+    "rarity": "Legendary",
+    "price": 35000,
+    "transmission": "RWD",
+    "source": "Autoshow & Wheelspin",
+    "stats": {
+      "speed": "118.9 Kph",
+      "0-97": "28.2s",
+      "0-161": "?",
+      "g": "0.73"
+    },
+    "image": "/cars/f40.svg"
+  },
+  {
+    "id": 2,
+    "brand": "Abarth",
+    "model": "Fiat 131",
+    "year": 1980,
+    "division": "Classic Rally",
+    "rarity": "Rare",
+    "price": 250000,
+    "transmission": "RWD",
+    "source": "Festival Playlist",
+    "stats": {
+      "speed": "193.1 Kph",
+      "0-97": "8.2s",
+      "0-161": "24.0s",
+      "g": "0.89"
+    },
+    "image": "/cars/gt40.svg"
+  },
+  {
+    "id": 3,
+    "brand": "Ferrari",
+    "model": "F40",
+    "year": 1992,
+    "division": "Hypercar",
+    "rarity": "Legendary",
+    "price": 1200000,
+    "transmission": "RWD",
+    "source": "Forza Shop",
+    "stats": {
+      "speed": "320 Kph",
+      "0-97": "3.8s",
+      "0-161": "9.1s",
+      "g": "1.2"
+    },
+    "image": "/cars/ferrari_f40.svg"
+  }
+]
